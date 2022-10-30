@@ -1,0 +1,113 @@
+*{
+    font-weight: 500;
+}
+#chat{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    #sideBar{
+        width: 23%;
+        height: 100vh;
+        background-color: brown;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+        #header{
+            background-color: teal;
+            width: 100%;
+            height: 20%;
+            display: flex;
+            flex-direction: column;
+            #userDetail{
+                width: 100%;
+                height: 65%;
+                background-color: aqua;
+                display: flex;
+                #profile{
+                    height: 100px;
+                    width: 100px;
+                    background-color: black;
+                }
+                #user{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+                    background-color:rgb(135, 222, 150);
+                    width: 100%;
+                    padding-left: 10px;
+                    #userName{
+
+                        font-weight: 600;
+                        font-size: x-large;
+                    }
+                }
+            }
+            #searchField{
+                height: 40px;
+                border-radius: 5px;
+                width: 80%;
+                outline: none;
+                border: none;
+                background-color: #e6ebf5;
+                align-self: center;
+                margin-top: 10px;
+            }
+        }
+        #body{
+            background-color: rgb(102, 128, 0);
+            width: 100%;
+            height: 80%;
+            #nav{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: 100%;
+                height: 5%;
+                background-color: aqua;
+            }
+            #bodyContent{
+                background-color: rgb(225, 34, 34);
+                width: 100%;
+                height: 92%;
+                margin-top: 10px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                overflow-y: scroll;
+                .chatList{
+                    width: 95%;
+                    height: 50px;
+                    background-color: #e6ebf5;
+                    margin: 5px 0;
+                    border-radius: 5px;
+                    display: flex;
+                    .profile{
+                        border-radius: 5px;
+                        width: 50px;
+                        height: 50px;
+                        background-color: aqua;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+    #chatScreen{
+        width: 77%;
+        height: 100vh;
+        #header{
+            width: 100%;
+            height: 10%;
+            border-bottom: 1px black solid;
+        }
+        #body{
+            width: 100%;
+            height: 79%;
+        }
+        #footer{
+            border-top: 1px solid black;
+            width: 100%;
+            height: 10%;
+        }
+    }
+}
+#bodyContent::-webkit-scrollbar { width: 0 !important }

@@ -1,4 +1,4 @@
-import './chatList.css'
+// import './chatList.css'
 export const ChatList =()=>{
     return(
         <div id='chat'>

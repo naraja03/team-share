@@ -1,8 +1,10 @@
 
 export const ChatScreen = ()=>{
     return(
-        <>
-            <h1> This is chat screen</h1>
-        </>
+        <div id="chatScreen">
+            <div id="header"></div>
+            <div id="body"></div>
+            <div id="footer"></div>
+        </div>
     )
 }
