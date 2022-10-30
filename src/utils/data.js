@@ -2,6 +2,7 @@ export const chatListData=[
     {
         id: 1,
         receiver:"Raja",
+        receiverId:"raja01",
         isAdmin:false,
         lastMessage:"hello testing 123",
         messages:[
@@ -20,7 +21,7 @@ export const chatListData=[
             {
                 id:3,
                 senderId:"arun01",
-                message:"hi",
+                message:"testing 123 hello testing 123 hello testing 123 hello testing 123 hello testing 123 hello testing 123",
                 timeSta3mp:3,
             },
             {
@@ -34,6 +35,7 @@ export const chatListData=[
     {
         id: 2,
         receiver:"Suresh",
+        receiverId:"suresh01",
         isAdmin:false,
         lastMessage:"hello",
         messages:[
@@ -46,13 +48,13 @@ export const chatListData=[
             {
                 id:2,
                 senderId:"arun01",
-                message:"hi",
+                message:"suresh",
                 timeStamp:2,
             },
             {
                 id:3,
                 senderId:"suresh01",
-                message:"hi",
+                message:"arun",
                 timeSta3mp:3,
             },
             {
@@ -64,15 +66,16 @@ export const chatListData=[
         ]
     },
     {
-        id: 2,
+        id: 3,
         receiver:"roy",
+        receiverId:"roy01",
         isAdmin:false,
         lastMessage:" 123",
         messages:[
             {
                 id:1,
                 senderId:"suresh01",
-                message:"hi",
+                message:"hello",
                 timeStamp:1,
             },
             {
@@ -84,7 +87,7 @@ export const chatListData=[
             {
                 id:3,
                 senderId:"suresh01",
-                message:"hi",
+                message:"testing",
                 timeSta3mp:3,
             },
             {

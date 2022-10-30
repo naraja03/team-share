@@ -1,8 +1,8 @@
 
-export const ChatList =({data})=>{
+export const ChatList =({data,setChatUser})=>{
     console.log(data);
     return(
-        <div className="chatList">
+        <div className="chatList" onClick={()=>setChatUser(data.receiver)}>
             <div className="profile"></div>
             <div className="user">
                 <div className="userName">{data.receiver}</div>
