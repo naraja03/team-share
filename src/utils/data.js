@@ -99,3 +99,37 @@ export const chatListData=[
         ]
     },
 ]
+
+export const groupMessage = [
+    {
+        id:1,
+        groupName: "demo group",
+        members:"raja, suresh, arun, roy",
+        messages:[
+            {
+                id:1,
+                senderId:"suresh01",
+                message:"hello",
+                timeStamp:1,
+            },
+            {
+                id:2,
+                senderId:"arun01",
+                message:"hi",
+                timeStamp:2,
+            },
+            {
+                id:3,
+                senderId:"suresh01",
+                message:"testing",
+                timeSta3mp:3,
+            },
+            {
+                id:4,
+                senderId:"arun01",
+                message:"hi",
+                timeStamp:4,
+            },
+        ]
+    }
+]

@@ -4,10 +4,11 @@ import { useState } from 'react'
 import './chat.scss'
 export const Chat = ()=>{
     const [chatUser,setChatUser] = useState("Raja")
+    const [chatType, setChatType] = useState('chat')
     return(
         <div id="chat">
-            <ChatSideBar setChatUser={setChatUser}/>
-            <ChatScreen chatUser={chatUser}/>
+            <ChatSideBar setChatType={setChatType} setChatUser={setChatUser}/>
+            <ChatScreen chatType={chatType} chatUser={chatUser}/>
         </div>
     )
 }
