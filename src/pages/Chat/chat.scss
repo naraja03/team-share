@@ -126,6 +126,7 @@
             display: flex;
             flex-direction: column;
             padding: 10px 0;
+            overflow-y: scroll;
             .senderMessage{
                 margin: 10px;
                 height: fit-content;
@@ -177,3 +178,4 @@
     }
 }
 #bodyContent::-webkit-scrollbar { width: 0 !important }
+#body::-webkit-scrollbar { width: 0 !important }
